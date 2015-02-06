@@ -1,7 +1,3 @@
-set et
-set ts=2
-set sw=2
-set si
 set hlsearch
 set incsearch
 set wildmode=longest:full

@@ -81,3 +81,6 @@ export PATH="/home/dave/.rbenv/shims:/home/dave/.rbenv/bin:/usr/local/sbin:/usr/
 
 bindkey -v
 bindkey "^R" history-incremental-search-backward
+
+export GOPATH=/usr/local/go
+export PATH=$PATH:$GOPATH/bin
