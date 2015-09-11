@@ -82,5 +82,12 @@ export PATH="/home/dave/.rbenv/shims:/home/dave/.rbenv/bin:/usr/local/sbin:/usr/
 bindkey -v
 bindkey "^R" history-incremental-search-backward
 
-export GOPATH=/usr/local/go
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
+
+alias ack="ack-grep"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH=~/bin:$PATH
+export PATH=~/iojs-v2.3.1-linux-x64/bin:$PATH
