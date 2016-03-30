@@ -52,6 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/home/dave/.rbenv/shims:/home/dave/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+eval "$(rbenv init -)"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -91,3 +92,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=~/bin:$PATH
 export PATH=~/iojs-v2.3.1-linux-x64/bin:$PATH
+
+eval "$(direnv hook zsh)"
