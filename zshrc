@@ -91,6 +91,3 @@ alias ack="ack-grep"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH=~/bin:$PATH
-export PATH=~/iojs-v2.3.1-linux-x64/bin:$PATH
-
-eval "$(direnv hook zsh)"
